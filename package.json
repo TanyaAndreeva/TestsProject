@@ -4,6 +4,7 @@
   "main": "test1.js",
   "devDependencies": {
     "allure-commandline": "^2.9.0",
+    "jenkins-mocha": "^6.0.0",
     "selenium-webdriver": "^2.53.3"
   },
   "dependencies": {
@@ -15,7 +16,6 @@
   },
   "scripts": {
     "test": "protractor conf.js",
-    "posttest": "allure generate allure-results --clean -o allure-report || true",
     "webdriver-update": "webdriver-manager update"
   }
 }
