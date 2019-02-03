@@ -15,7 +15,7 @@
     "protractor": "^5.4.2"
   },
   "scripts": {
-    "test": "protractor conf.js",
+    "test": "mocha --reporter mocha-allure-reporter",
     "webdriver-update": "webdriver-manager update"
   }
 }
