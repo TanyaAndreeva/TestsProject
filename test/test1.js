@@ -12,10 +12,13 @@ test.describe('Test', function () {
 // Get driver
 // Get driver1
 // var driver = new webdriver.Builder().
+//232323
 // withCapabilities(webdriver.Capabilities.firefox()).
 // build();
 // var driver = new webdriver.Builder().
 // withCapabilities(webdriver.Capabilities.edge()).
+//454545454
+
 // build();
 // var driver = new webdriver.Builder().
 // withCapabilities(webdriver.Capabilities.ie()).
@@ -35,6 +38,7 @@ test.describe('Test', function () {
         });
 
 // Quit webdriver 
+
         driver.quit();
     });
 });
