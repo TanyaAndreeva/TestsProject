@@ -24,9 +24,11 @@ test.describe('Test', function () {
         build();
 
 // Go to URL
+
         driver.get('http://the-internet.herokuapp.com');
         assert.equal(3, 2);
 // Find title and assert
+
         driver.executeScript('return document.title').then(function(return_value) {
             assert.equal(return_value, 'The Internet')
         });
