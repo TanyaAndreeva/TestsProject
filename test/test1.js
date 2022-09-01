@@ -10,6 +10,7 @@ test.describe('Test', function () {
         this.timeout(10000);
 
 // Get driver
+// Get driver1
 // var driver = new webdriver.Builder().
 // withCapabilities(webdriver.Capabilities.firefox()).
 // build();
@@ -33,7 +34,7 @@ test.describe('Test', function () {
             assert.equal(return_value, 'The Internet')
         });
 
-// Quit webdriver
+// Quit webdriver 
         driver.quit();
     });
 });
