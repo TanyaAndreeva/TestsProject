@@ -10,11 +10,15 @@ test.describe('Test', function () {
         this.timeout(10000);
 
 // Get driver
+// Get driver1
 // var driver = new webdriver.Builder().
+//232323
 // withCapabilities(webdriver.Capabilities.firefox()).
 // build();
 // var driver = new webdriver.Builder().
 // withCapabilities(webdriver.Capabilities.edge()).
+//454545454
+///77777
 // build();
 // var driver = new webdriver.Builder().
 // withCapabilities(webdriver.Capabilities.ie()).
@@ -33,7 +37,8 @@ test.describe('Test', function () {
             assert.equal(return_value, 'The Internet')
         });
 
-// Quit webdriver
+// Quit webdriver 
+
         driver.quit();
     });
 });
